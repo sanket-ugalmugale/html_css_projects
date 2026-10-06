@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 100px;
+    padding-right: 140px;
+}
+
+.leftnav{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+.leftnav i{
+    color: green;
+}
+
+.leftnav h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.rightnav{
+    height: 80%;
+    width: 50%;
+    background-color: black;
+    border-radius: 100px;
+    padding-left:20px;
+    padding-right: 5px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+
+.rightnav a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.rightnav button{
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: mediumseagreen;
+}
+.login{
+    background-color: rgb(42, 41, 41);
+}
+
+.home{
+    height: calc(100% - 60px);
+
+    display: flex;
+
+    padding: 0 100px;
+}
+
+.lefthome{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 0 50px;
+
+    gap: 40px;
+}
+
+.lefthome h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.lefthome p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lefthome button{
+    font-size: 15px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 50px;
+
+    background: linear-gradient(to right, mediumseagreen, rgb(157, 216, 157));
+}
+
+.righthome{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.righthome img{
+    width: 100%;
+}
+
+
